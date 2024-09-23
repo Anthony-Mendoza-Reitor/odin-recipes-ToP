@@ -1,16 +1,28 @@
 html{
     background-color: rgba(15, 131, 240, 0.548);
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
 ul{
-    background-color: black;
-    width: 102px;
-    color: rgb(111, 143, 231);
+    border-radius: 20px;
+    background-color: rgb(216, 210, 210);
+    width: 400px;
+    color: rgb(5, 5, 5);
+    text-shadow:rgb(248, 245, 245) 2px 2px;
     border: 1px black;
     border-style: solid;
 }
 li {
-    width: 100px;
+    border-style: groove;
+    border-radius: 20px;
+    list-style-type: none;
+    width: 350px;
     text-align: center;
+    text-shadow: none;
     background-color: rgb(154, 192, 179);
     padding-top: 4px;
     margin: 1px;
